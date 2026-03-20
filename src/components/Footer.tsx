@@ -7,48 +7,18 @@ export default function Footer() {
       <div className="relative h-[calc(100vh+400px)] sm:h-[calc(100vh+600px)] lg:h-[calc(100vh+800px)] -top-[100vh]">
         <div className="h-[400px] sm:h-[600px] lg:h-[800px] sticky top-[calc(100vh-400px)] sm:top-[calc(100vh-600px)] lg:top-[calc(100vh-800px)]">
           <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
-            <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20">
+            <div className="flex shrink-0 gap-6 sm:gap-12 lg:gap-20">
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Компания</h3>
-                <a
-                  href="#projects"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Проекты
-                </a>
-                <a
-                  href="#about"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  О нас
-                </a>
-                <a
-                  href="#contact"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Контакты
-                </a>
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs">Компания</h3>
+                <a href="#projects" className="text-white hover:text-neutral-400 transition-colors duration-300 text-xs sm:text-sm">Проекты</a>
+                <a href="#about" className="text-white hover:text-neutral-400 transition-colors duration-300 text-xs sm:text-sm">О нас</a>
+                <a href="#contact" className="text-white hover:text-neutral-400 transition-colors duration-300 text-xs sm:text-sm">Контакты</a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Услуги</h3>
-                <a
-                  href="#modular"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Модульные дома
-                </a>
-                <a
-                  href="#frame"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Каркасные дома
-                </a>
-                <a
-                  href="#calculate"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Рассчитать стоимость
-                </a>
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs">Услуги</h3>
+                <a href="#modular" className="text-white hover:text-neutral-400 transition-colors duration-300 text-xs sm:text-sm">Модульные дома</a>
+                <a href="#frame" className="text-white hover:text-neutral-400 transition-colors duration-300 text-xs sm:text-sm">Каркасные дома</a>
+                <a href="#calculate" className="text-white hover:text-neutral-400 transition-colors duration-300 text-xs sm:text-sm">Смета</a>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">

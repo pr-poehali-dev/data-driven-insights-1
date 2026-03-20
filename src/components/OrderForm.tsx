@@ -31,16 +31,16 @@ export default function OrderForm() {
   };
 
   return (
-    <div id="contact" className="bg-white px-6 py-20 flex flex-col items-center">
-      <h2 className="text-3xl md:text-5xl font-bold text-neutral-900 mb-3 text-center uppercase tracking-tight">
+    <div id="contact" className="bg-white px-4 sm:px-6 py-12 sm:py-16 md:py-20 flex flex-col items-center">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-900 mb-2 sm:mb-3 text-center uppercase tracking-tight">
         Рассчитать стоимость
       </h2>
-      <p className="text-neutral-500 mb-10 text-center max-w-md">
+      <p className="text-neutral-500 mb-8 sm:mb-10 text-center max-w-md text-sm sm:text-base">
         Оставьте заявку — свяжемся в течение 30 минут и подберём проект под ваш бюджет
       </p>
 
       {status === "success" ? (
-        <div className="border border-black px-10 py-10 text-center max-w-md w-full">
+        <div className="border border-black px-6 sm:px-10 py-8 sm:py-10 text-center max-w-sm sm:max-w-md w-full">
           <div className="text-4xl mb-4">🏠</div>
           <h3 className="text-xl font-bold mb-2">Заявка отправлена!</h3>
           <p className="text-neutral-600">Мы свяжемся с вами в ближайшее время.</p>

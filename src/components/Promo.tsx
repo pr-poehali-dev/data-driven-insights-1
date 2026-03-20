@@ -25,11 +25,11 @@ export default function Promo() {
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
+      <h3 className="absolute top-6 sm:top-10 md:top-12 right-4 sm:right-6 text-white uppercase z-10 text-xs sm:text-sm md:text-base lg:text-lg">
         Наш подход
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
+      <p className="absolute bottom-6 sm:bottom-10 md:bottom-12 left-4 right-4 sm:left-auto sm:right-6 text-white text-base sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl max-w-full sm:max-w-sm md:max-w-lg lg:max-w-xl xl:max-w-3xl z-10">
         Каждый дом — это точный инженерный расчёт, качественные материалы и команда, которая строит для себя так же, как для вас.
       </p>
     </div>
