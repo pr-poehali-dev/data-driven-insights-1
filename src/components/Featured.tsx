@@ -11,20 +11,20 @@ export default function Featured() {
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
         <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Почему выбирают нас</h3>
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Модульные и каркасные дома строятся в 3–5 раз быстрее кирпичных. Фиксированная смета, гарантия 10 лет и собственное производство — без посредников.
+          Модульные и каркасные дома строятся в 3–5 раз быстрее кирпичных. Фиксированная смета, собственное производство — без посредников.
         </p>
         <div className="flex flex-col gap-3 mb-8">
           <div className="flex items-center gap-3 text-neutral-700">
-            <span className="text-2xl">🏗</span>
-            <span>Срок строительства — от 45 дней</span>
+            <span className="text-2xl">🛡️</span>
+            <span className="font-semibold">Гарантия 36 месяцев</span>
           </div>
           <div className="flex items-center gap-3 text-neutral-700">
-            <span className="text-2xl">📋</span>
-            <span>Цена фиксируется в договоре</span>
+            <span className="text-2xl">⏱️</span>
+            <span className="font-semibold">Работа строго в срок — прописываем в договоре</span>
           </div>
           <div className="flex items-center gap-3 text-neutral-700">
-            <span className="text-2xl">🏠</span>
-            <span>Более 50 реализованных проектов</span>
+            <span className="text-2xl">🚚</span>
+            <span className="font-semibold">Бесплатная доставка до вашего участка</span>
           </div>
         </div>
         <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
