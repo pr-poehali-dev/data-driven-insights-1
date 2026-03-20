@@ -9,25 +9,25 @@ export default function Featured() {
         />
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-3 sm:mb-4 text-xs sm:text-sm tracking-wide text-neutral-600">Почему выбирают нас</h3>
-        <p className="text-xl sm:text-2xl lg:text-4xl mb-6 sm:mb-8 text-neutral-900 leading-tight">
+        <h3 className="uppercase mb-4 sm:mb-5 text-xs sm:text-sm md:text-base tracking-widest text-neutral-500">Почему выбирают нас</h3>
+        <p className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl mb-7 sm:mb-9 text-neutral-900 leading-snug font-medium">
           Модульные и каркасные дома строятся в 3–5 раз быстрее кирпичных. Фиксированная смета, собственное производство — без посредников.
         </p>
-        <div className="flex flex-col gap-3 sm:gap-4 mb-6 sm:mb-8">
-          <div className="flex items-center gap-3 text-neutral-700">
-            <span className="text-xl sm:text-2xl flex-shrink-0">🛡️</span>
-            <span className="font-semibold text-sm sm:text-base">Гарантия 36 месяцев</span>
+        <div className="flex flex-col gap-4 sm:gap-5 mb-7 sm:mb-9">
+          <div className="flex items-center gap-3 sm:gap-4 text-neutral-700">
+            <span className="text-2xl sm:text-3xl flex-shrink-0">🛡️</span>
+            <span className="font-semibold text-base sm:text-lg">Гарантия 36 месяцев</span>
           </div>
-          <div className="flex items-center gap-3 text-neutral-700">
-            <span className="text-xl sm:text-2xl flex-shrink-0">⏱️</span>
-            <span className="font-semibold text-sm sm:text-base">Работа строго в срок — прописываем в договоре</span>
+          <div className="flex items-center gap-3 sm:gap-4 text-neutral-700">
+            <span className="text-2xl sm:text-3xl flex-shrink-0">⏱️</span>
+            <span className="font-semibold text-base sm:text-lg">Работа строго в срок — прописываем в договоре</span>
           </div>
-          <div className="flex items-center gap-3 text-neutral-700">
-            <span className="text-xl sm:text-2xl flex-shrink-0">🚚</span>
-            <span className="font-semibold text-sm sm:text-base">Бесплатная доставка до вашего участка</span>
+          <div className="flex items-center gap-3 sm:gap-4 text-neutral-700">
+            <span className="text-2xl sm:text-3xl flex-shrink-0">🚚</span>
+            <span className="font-semibold text-base sm:text-lg">Бесплатная доставка до вашего участка</span>
           </div>
         </div>
-        <button className="bg-black text-white border border-black px-4 py-2 text-xs sm:text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
+        <button className="bg-black text-white border border-black px-6 py-3 text-sm sm:text-base transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
           Смотреть проекты
         </button>
       </div>

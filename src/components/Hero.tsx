@@ -26,14 +26,14 @@ export default function Hero() {
       </motion.div>
 
       <div className="relative z-10 text-center text-white px-4 sm:px-6">
-        <p className="text-xs sm:text-sm uppercase tracking-widest mb-3 sm:mb-4 opacity-80">Модульные и каркасные дома</p>
-        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-4 sm:mb-6 leading-tight">
+        <p className="text-xs sm:text-sm md:text-base uppercase tracking-widest mb-3 sm:mb-5 opacity-80">Модульные и каркасные дома</p>
+        <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold tracking-tight mb-5 sm:mb-7 leading-none">
           ПОСТРОИМ<br />ВАШ ДОМ
         </h1>
-        <p className="text-sm sm:text-base md:text-lg lg:text-xl max-w-2xl mx-auto opacity-90 mb-6 sm:mb-10 px-2">
+        <p className="text-sm sm:text-lg md:text-xl lg:text-2xl max-w-2xl mx-auto opacity-90 mb-7 sm:mb-10 px-2 leading-relaxed">
           Быстро, надёжно и по фиксированной цене. От проекта до ключей — под ключ.
         </p>
-        <button className="border border-white text-white px-6 sm:px-8 py-2.5 sm:py-3 uppercase text-xs sm:text-sm tracking-wide hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">
+        <button className="border border-white text-white px-7 sm:px-10 py-3 sm:py-4 uppercase text-xs sm:text-sm md:text-base tracking-wide hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">
           Рассчитать стоимость
         </button>
       </div>

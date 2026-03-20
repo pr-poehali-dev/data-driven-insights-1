@@ -32,18 +32,18 @@ export default function OrderForm() {
 
   return (
     <div id="contact" className="bg-white px-4 sm:px-6 py-12 sm:py-16 md:py-20 flex flex-col items-center">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-900 mb-2 sm:mb-3 text-center uppercase tracking-tight">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-900 mb-3 sm:mb-4 text-center uppercase tracking-tight">
         Рассчитать стоимость
       </h2>
-      <p className="text-neutral-500 mb-8 sm:mb-10 text-center max-w-md text-sm sm:text-base">
+      <p className="text-neutral-500 mb-8 sm:mb-10 text-center max-w-md text-base sm:text-lg leading-relaxed">
         Оставьте заявку — свяжемся в течение 30 минут и подберём проект под ваш бюджет
       </p>
 
       {status === "success" ? (
         <div className="border border-black px-6 sm:px-10 py-8 sm:py-10 text-center max-w-sm sm:max-w-md w-full">
-          <div className="text-4xl mb-4">🏠</div>
-          <h3 className="text-xl font-bold mb-2">Заявка отправлена!</h3>
-          <p className="text-neutral-600">Мы свяжемся с вами в ближайшее время.</p>
+          <div className="text-5xl mb-4">🏠</div>
+          <h3 className="text-xl sm:text-2xl font-bold mb-2">Заявка отправлена!</h3>
+          <p className="text-neutral-600 text-base sm:text-lg">Мы свяжемся с вами в ближайшее время.</p>
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="w-full max-w-md flex flex-col gap-4">
@@ -53,7 +53,7 @@ export default function OrderForm() {
             onChange={handleChange}
             placeholder="Ваше имя *"
             required
-            className="border border-neutral-300 px-4 py-3 text-sm focus:outline-none focus:border-black transition-colors"
+            className="border border-neutral-300 px-4 py-3 sm:py-4 text-base focus:outline-none focus:border-black transition-colors"
           />
           <input
             name="phone"
@@ -61,14 +61,14 @@ export default function OrderForm() {
             onChange={handleChange}
             placeholder="Телефон *"
             required
-            className="border border-neutral-300 px-4 py-3 text-sm focus:outline-none focus:border-black transition-colors"
+            className="border border-neutral-300 px-4 py-3 sm:py-4 text-base focus:outline-none focus:border-black transition-colors"
           />
           <input
             name="area"
             value={form.area}
             onChange={handleChange}
             placeholder="Желаемая площадь, м²"
-            className="border border-neutral-300 px-4 py-3 text-sm focus:outline-none focus:border-black transition-colors"
+            className="border border-neutral-300 px-4 py-3 sm:py-4 text-base focus:outline-none focus:border-black transition-colors"
           />
           <textarea
             name="message"
@@ -76,15 +76,15 @@ export default function OrderForm() {
             onChange={handleChange}
             placeholder="Комментарий (необязательно)"
             rows={3}
-            className="border border-neutral-300 px-4 py-3 text-sm focus:outline-none focus:border-black transition-colors resize-none"
+            className="border border-neutral-300 px-4 py-3 sm:py-4 text-base focus:outline-none focus:border-black transition-colors resize-none"
           />
           {status === "error" && (
-            <p className="text-red-600 text-sm">Ошибка отправки. Попробуйте ещё раз.</p>
+            <p className="text-red-600 text-sm sm:text-base">Ошибка отправки. Попробуйте ещё раз.</p>
           )}
           <button
             type="submit"
             disabled={status === "loading"}
-            className="bg-black text-white px-6 py-3 uppercase text-sm tracking-wide hover:bg-neutral-800 transition-colors disabled:opacity-50 cursor-pointer"
+            className="bg-black text-white px-6 py-3 sm:py-4 uppercase text-sm sm:text-base tracking-wide hover:bg-neutral-800 transition-colors disabled:opacity-50 cursor-pointer"
           >
             {status === "loading" ? "Отправляем..." : "Отправить заявку"}
           </button>
